@@ -23,6 +23,9 @@ def gerar_nuvem(texto):
 
 if __name__ == '__main__':
 
+    # Baixar Stopwords
+    nltk.download('stopwords')
+
     # Configurações da página
     st.set_page_config(
         page_title="Nuvem de Palavras",
