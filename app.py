@@ -1,4 +1,5 @@
 import streamlit as st
+import nltk
 from nltk.corpus import stopwords
 from wordcloud import WordCloud
 
